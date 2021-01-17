@@ -39,8 +39,8 @@
 
 <table>
   <tr>
-    <td>LightGBM Regressor</td>
-     <td>XGBoost Classifier(500만 기준)</td>
+    <td>XGBoost Classifier(500만 기준)</td>
+     <td>LightGBM Regressor</td>
   </tr>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/66674793/104835232-93c8cf00-58e8-11eb-9e36-e93dffcd0baf.png" width=500 height=300></td>
