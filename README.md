@@ -53,5 +53,5 @@
 누적관객수 예측을 최대화하는 모형은 회귀에서는 XGBoost와 LightGBM의 평균을 이용한 모형(Mean_Ensemble) 이었으며, 분류에서는 누적관객수를 500만 기준으로 나누었을 때 XGBoost 분류기가 가장 좋은 예측력을 보여주었다. 스크린 상한제의 효용성에 대한 분석에서는 선형회귀모형을 이용한 우도비 검정과,회귀분석과 분류분석에서의 변수중요도를 살펴보았을 때, 스크린수 변수가 유의미한 변수이며 중요한 변수라는 결론을 얻을 수 있었다. 따라서 스크린 상한제를 시행하는것을 생각해볼 필요가 있다고 생각된다.
 
 ## References
-김보경(2019). 머신러닝 기법을 활용한 정형∙비정형 데이터에 대한 예측 연구와 응용. 중앙대학교 대학원 석사학위논문.
-Jeon, S. H, Son, Y. S(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics, 29(7), 1257-1270.
+##### 김보경(2019). 머신러닝 기법을 활용한 정형∙비정형 데이터에 대한 예측 연구와 응용. 중앙대학교 대학원 석사학위논문.
+##### Jeon, S. H, Son, Y. S(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics, 29(7), 1257-1270.
