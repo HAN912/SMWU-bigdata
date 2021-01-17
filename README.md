@@ -29,10 +29,9 @@
 
 ## Flow Chart
 2020년까지의 한국 누적 박스오피스에 해당하는 영화 630편을 이용하여 학습한다.
-데이터 셋의 수가 적어 K-Fold를 통한 교차검증을 진행하고, 성과 평가척도로 RMSE, MAE, F1-score, Precision을 이용하여 성능을 평가한다. Lasso, GLM ,Gradient Boost, RandomForest, Decision Tree 등을 모델을 사용한다.
-<img src = "https://user-images.githubusercontent.com/66674793/104835172-25840c80-58e8-11eb-82aa-604e25b91060.png" width="400px">
+데이터 셋의 수가 적어 K-Fold를 통한 교차검증을 진행하고, 성과 평가척도로 RMSE, MAE, F1-score, Precision을 이용하여 성능을 평가한다. Lasso, GLM ,Gradient Boost, RandomForest, Decision Tree 등을 모델로 사용한다.
 
-누적관객수 예측을 최대화하는 모형은 회귀에서는 XGBoost와 LightGBM의 평균을 이용한 모형(Mean_Ensemble) 이었으며, 분류에서는 누적관객수를 500만 기준으로 나누었을 때 XGBoost 분류기가 가장 좋은 예측력을 보여주었다. 스크린 상한제의 효용성에 대한 분석에서는 선형회귀모형을 이용한 우도비 검정과,회귀분석과 분류분석에서의 변수중요도를 살펴보았을 때, 스크린수 변수가 유의미한 변수이며 중요한 변수라는 결론을 얻을 수 있었다. 따라서 스크린 상한제를 시행하는것을 생각해볼 필요가 있다고 생각된다.
+<img src = "https://user-images.githubusercontent.com/66674793/104835172-25840c80-58e8-11eb-82aa-604e25b91060.png" width="400px">
 
 ## Prediction rate
 
@@ -40,4 +39,19 @@
 
 ## Variable Importance (VIMP)
 
-<img src="https://user-images.githubusercontent.com/66674793/104835232-93c8cf00-58e8-11eb-9e36-e93dffcd0baf.png" title="<LightGBM Regressor>"/> <img src="https://user-images.githubusercontent.com/66674793/104835229-91ff0b80-58e8-11eb-85b6-7358ab0ba8a3.png" title="<XGBoost Classifier(500만 기준)>"/>
+<table>
+  <tr>
+    <td><LightGBM Regressor></td>
+     <td><XGBoost Classifier(500만 기준)></td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/66674793/104835232-93c8cf00-58e8-11eb-9e36-e93dffcd0baf.png" width=500 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/66674793/104835229-91ff0b80-58e8-11eb-85b6-7358ab0ba8a3.png" width=500 height=480></td>
+  </tr>
+ </table>
+
+## Conclusion
+
+누적관객수 예측을 최대화하는 모형은 회귀에서는 XGBoost와 LightGBM의 평균을 이용한 모형(Mean_Ensemble) 이었으며, 분류에서는 누적관객수를 500만 기준으로 나누었을 때 XGBoost 분류기가 가장 좋은 예측력을 보여주었다. 스크린 상한제의 효용성에 대한 분석에서는 선형회귀모형을 이용한 우도비 검정과,회귀분석과 분류분석에서의 변수중요도를 살펴보았을 때, 스크린수 변수가 유의미한 변수이며 중요한 변수라는 결론을 얻을 수 있었다. 따라서 스크린 상한제를 시행하는것을 생각해볼 필요가 있다고 생각된다.
+
+
