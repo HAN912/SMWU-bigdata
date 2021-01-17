@@ -31,7 +31,7 @@
 2020년까지의 한국 누적 박스오피스에 해당하는 영화 630편을 이용하여 학습한다.
 데이터 셋의 수가 적어 K-Fold를 통한 교차검증을 진행하고, 성과 평가척도로 RMSE, MAE, F1-score, Precision을 이용하여 성능을 평가한다. Lasso, GLM ,Gradient Boost, RandomForest, Decision Tree 등을 모델로 사용한다.
 
-<img src = "https://user-images.githubusercontent.com/66674793/104835172-25840c80-58e8-11eb-82aa-604e25b91060.png" width="400px">
+<img src = "https://user-images.githubusercontent.com/66674793/104835172-25840c80-58e8-11eb-82aa-604e25b91060.png" width="400px" height="600px">
 
 ## Prediction rate
 
@@ -41,12 +41,12 @@
 
 <table>
   <tr>
-    <td><LightGBM Regressor></td>
-     <td><XGBoost Classifier(500만 기준)></td>
+    <td>LightGBM Regressor</td>
+     <td>XGBoost Classifier(500만 기준)</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/66674793/104835232-93c8cf00-58e8-11eb-9e36-e93dffcd0baf.png" width=500 height=480></td>
-    <td><img src="https://user-images.githubusercontent.com/66674793/104835229-91ff0b80-58e8-11eb-85b6-7358ab0ba8a3.png" width=500 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/66674793/104835232-93c8cf00-58e8-11eb-9e36-e93dffcd0baf.png" width=500 height=300></td>
+    <td><img src="https://user-images.githubusercontent.com/66674793/104835229-91ff0b80-58e8-11eb-85b6-7358ab0ba8a3.png" width=500 height=300></td>
   </tr>
  </table>
 
